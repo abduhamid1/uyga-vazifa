@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #AAC1D6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+body .content {
+  width: 550px;
+  height: 100%;
+  background: #FFFFFF;
+  overflow-y: scroll hidden;
+  position: relative;
+}
+body .content__top {
+  background: #6A96D8;
+  position: -webkit-sticky !important;
+  position: sticky !important;
+  z-index: 9999;
+  top: 0px;
+  margin-top: -20px;
+  height: 90px;
+  padding: 0 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .content__top {
+  color: #fff;
+  font-family: "Inconsolata", monospace;
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  padding-left: 50px;
+  position: relative;
+}
+body .content__top span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: white;
+  position: absolute;
+  left: 30px;
+  bottom: 37px;
+}
+body .content__top i {
+  font-size: 27px;
+  transition: all 0.3s ease;
+}
+body .content__top i:hover {
+  color: rgba(255, 255, 255, 0.611);
+}
+body .content__figure {
+  width: 90%;
+  height: 100%;
+  padding: 15px 0;
+  margin: auto;
+}
+body .content__figure__top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+body .content__figure__top h2 {
+  text-align: center;
+  margin: auto;
+  color: #DEDEDE;
+}
+body .content__figure__top span {
+  margin: auto;
+  width: 40%;
+  background: #DEDEDE;
+  height: 3px;
+}
+body .content__figure__center {
+  margin-top: 10px;
+}
+body .content__figure__center span {
+  color: silver;
+}
+body .content__figure__center .text {
+  max-width: 60%;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 3% 100%, 4% 100%, 4% 18%);
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 3% 100%, 4% 100%, 4% 18%);
+}
+body .content__figure__center p {
+  padding: 15px 60px 15px 30px;
+  background: #E6EDF6;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 20px;
+  line-height: 25px;
+}
+body .content__figure__right {
+  margin-top: 10px;
+}
+body .content__figure__right span {
+  color: silver;
+  float: right;
+}
+body .content__figure__right .text {
+  max-width: 60%;
+  position: relative;
+  float: right;
+  top: 20px;
+  right: -37px;
+  -webkit-clip-path: polygon(0 0, 100% 0, 95% 17%, 95% 100%, 0 100%, 0 18%);
+          clip-path: polygon(0 0, 100% 0, 95% 17%, 95% 100%, 0 100%, 0 18%);
+}
+body .content__figure__right p {
+  display: inline-block;
+  padding: 15px 60px 15px 30px;
+  line-height: 25px;
+  background: #F2F2F2;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+body .content__figure__bottom {
+  margin-top: 142px;
+}
+body .content__figure__bottom span {
+  color: silver;
+}
+body .content__figure__bottom .text {
+  max-width: 60%;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 3% 100%, 4% 100%, 4% 18%);
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 3% 100%, 4% 100%, 4% 18%);
+}
+body .content__figure__bottom p {
+  padding: 15px 60px 15px 30px;
+  background: #E6EDF6;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 20px;
+  line-height: 25px;
+}
+body .content__figure__end {
+  margin-top: 10px;
+}
+body .content__figure__end span {
+  color: silver;
+  float: right;
+}
+body .content__figure__end .text {
+  max-width: 60%;
+  position: relative;
+  float: right;
+  top: 20px;
+  right: -37px;
+  -webkit-clip-path: polygon(0 0, 100% 0, 95% 17%, 95% 100%, 0 100%, 0 18%);
+          clip-path: polygon(0 0, 100% 0, 95% 17%, 95% 100%, 0 100%, 0 18%);
+}
+body .content__figure__end p {
+  display: inline-block;
+  padding: 15px 60px 15px 30px;
+  line-height: 25px;
+  background: #FFC2C1;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+body .content__figure__input {
+  margin-top: 40px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: white;
+}
+body .content__figure__input form {
+  display: flex;
+  position: fixed;
+  z-index: 11111;
+  bottom: 0;
+  left: 485px;
+}
+body .content__figure__input form input {
+  width: 450px;
+  padding: 25px 15px;
+  border: none;
+  outline: 0;
+}
+body .content__figure__input form button {
+  width: 100px;
+  padding: 8px 35px;
+  border: none;
+  background: white;
+  color: #6191D6;
+  font-weight: 700;
+  font-size: 20px;
+}/*# sourceMappingURL=sass.css.map */
