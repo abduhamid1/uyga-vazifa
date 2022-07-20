@@ -1,5 +1,7 @@
 body {
     .content {
+        position: relative;
+        top: 0;
         &__top {
             background: #6A96D8;
             position: sticky !important;
